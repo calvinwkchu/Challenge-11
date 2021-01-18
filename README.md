@@ -6,7 +6,13 @@ The purpose of this project is to create a website that displays UFO sightings d
 
 ## Results
 
-Upon opening the website, all UFO sightings data are displayed intially. The user applies filters on the results by typing in their search criteria on the filter search box, where they can input any (or all) the input boxes available. Upon successful input, the website will refresh and filter the results the user specified as per their input.
+Upon opening the website, all UFO sightings data are displayed intially as shown below. 
+
+<img src="static/images/unfiltered.png">  
+
+The user applies filters on the results by typing in their search criteria on the filter search box, where they can input any (or all) the input boxes available. Upon successful input, the website will refresh and filter the results the user specified as per their input. Below is an example when we have filled out some of the input boxes.
+
+<img src="static/images/filtered.png">  
 
 ## Summary
 
