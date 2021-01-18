@@ -34,7 +34,9 @@ function handleClick() {
   if (date) {
     // Apply `filter` to the table data to only keep the
     // rows where the `datetime` value matches the filter value
-    filteredData = filteredData.filter(row => row.datetime === date);
+    filteredData = filteredData.filter(function (row) {
+        return row.datetime === date;
+      });
   };
 
    // Rebuild the table using the filtered data

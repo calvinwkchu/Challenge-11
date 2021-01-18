@@ -59,13 +59,18 @@ function updateFilters() {
     let filteredData = tableData;
  
     // 9. Loop through all of the filters and keep any data that
+    // matches the filter values
 
-
-    Object.values(filters).forEach(function (result){
-      console.log(result)});
+    // let a = Object.values(filters).forEach(function (result){
+    //   console.log(result)});
   
+    if (filters){
+      filteredData = filteredData.filter(function (row) {
+          return row.filters === Object.values(filters).forEach(function (result){
+            console.log(result)});
+        }
+      )};
 
-  
     // 10. Finally, rebuild the table using the filtered data
     buildTable(filteredData);
   }
